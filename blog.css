@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(256,180,68);
+}
+nav{
+    background-color: rgb(255, 250, 221);
+    box-shadow: 5px  5px 5px rgb(224, 137, 22);
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(58, 32, 14);
+}
+nav a:hover{
+    background-color: rgb(230, 218, 197);
+}
+nav li:first-child{
+    margin-right: auto;
+}
+
+.banner{
+    margin: auto;
+    width:100%;
+}
+
+.blog{
+    margin: 30px;
+    font-family: monospace
+}
+.blog1{
+    margin: auto;
+    padding: 50px 100px 50px;
+    background-color: rgb(255, 245, 216);
+    width:70%;
+    display: block;
+    box-shadow: 0 8px 12px 0 rgba(119, 71, 16, 0.514), 0 10px 24px 0 rgba(119, 71, 16, 0.514);
+}
+.blog2{
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px 100px 50px;
+    background-color: rgb(255, 245, 216);
+    width:70%;
+    display: block;
+    box-shadow: 0 8px 12px 0 rgba(119, 71, 16, 0.514), 0 10px 24px 0 rgba(119, 71, 16, 0.514);
+}
+.text-center{
+    text-align: center;
+}
+.title{
+    font-size: 25px;
+}
+.pinned{
+    font-style: italic;
+}
+.image-center{
+    display: block;
+    margin: auto;
+}
